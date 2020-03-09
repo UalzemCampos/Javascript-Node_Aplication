@@ -119,7 +119,7 @@ main h2 span{
 }
 
 img.logo{
-    width: 120px;
+    width: 140px;
     margin: 70px 0;
 }
 
@@ -174,3 +174,57 @@ section.form{
     transition: all 300ms;
 }
 
+
+
+
+
+
+  
+  
+  
+  
+  .heart{
+    
+    background-color: red;
+    height: 70px;
+    width: 70px;
+    
+    top:43%;
+   left:45%;
+   
+    transform: rotate(45deg);
+    animation: beat 2s infinite;
+  
+  }
+  
+  @keyframes beat{
+    50%{
+      transform: rotate(45deg) scale(1.2);
+    }
+  }
+  
+  .heart-l, .heart-r{
+    
+    background-color:red;
+    height: 40px;
+    width: 70px;
+    position: relative;
+    bottom: 38px;
+    border-radius: 70px 70px 0 0;
+  }
+  
+  .heart-l{
+    bottom: 38px;
+    
+  }
+  
+  .heart-r{
+    bottom: 25px;
+    right: 52px;
+    transform: rotate(-90deg);
+  }
+  
+  
+  
+    
+  
